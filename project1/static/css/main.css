@@ -1,0 +1,52 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(/static/img/image1.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+input{
+    border-radius: 5px;
+    border: white;
+}
+.input1{
+    margin: 5px;
+    padding: 8px;
+}
+
+.input2{
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: left;    
+}
+.input3{
+    width: 30%;
+    margin-right: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: right;    
+}
+input:hover{
+    background-color: #befafc;
+    border:  #befafc;
+    transition: all 1ms ease 0s;
+}
+.inc-width{
+    width: 200px;
+    height: 40px;
+    margin-top: 8px;
+}
+.container{
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 1;
+  background: none;
+  max-width: 300px;
+  margin: 150px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
